@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <p>games for kidkode</p>
-      <MazeGame commands={[]} />
+      <MazeGame />
     </>
   );
 }
