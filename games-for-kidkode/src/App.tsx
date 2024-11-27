@@ -1,10 +1,12 @@
 //import { useState } from 'react'
 import "./App.css";
+import MazeGame from "./pages/MazeGame";
 
 function App() {
   return (
     <>
-      <h1>games for kidkode</h1>
+      <p>games for kidkode</p>
+      <MazeGame commands={[]} />
     </>
   );
 }
